@@ -12,6 +12,10 @@ like other AlienWare LED controllers as seen by OpenRGB.
 For OpenRgb, the platform_id is 0x0901 - one zone. Uncomment the 'print'
 in elc_ng.py to see what is sent to the controller. 
 
+For example 
+g5stripe$ `python led.py green`
+dt: b"\x03'\x00\xff\x00\x00\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
+
 I mentioned this in this thread
 https://gitlab.com/CalcProgrammer1/OpenRGB/-/issues/2507
 
