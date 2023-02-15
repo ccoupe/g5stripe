@@ -1,0 +1,11 @@
+[Unit]
+Description=Face Recognition Websocket
+After=network-online.target
+
+[Service]
+User=ccoupe
+ExecStart=/usr/local/lib/g5stripe/turnoff.sh
+Restart=on-abort
+
+[Install]
+WantedBy=multi-user.target
