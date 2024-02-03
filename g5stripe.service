@@ -1,5 +1,5 @@
 [Unit]
-Description=Face Recognition Websocket
+Description=Change color of LED string on Dell G5
 After=network-online.target
 
 [Service]

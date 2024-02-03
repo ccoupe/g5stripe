@@ -336,7 +336,6 @@ class ELC:
         return command.response_class.from_bytes(self.usb_recv())
 
     def usb_send(self, data):
-        #print('dt:',data)
         self.usb_device.ctrl_transfer(
             usb.TYPE_CLASS | usb.RECIP_INTERFACE | usb.ENDPOINT_OUT,
             usb.REQ_SET_CONFIGURATION,
